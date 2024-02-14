@@ -1,0 +1,44 @@
+.top-header{
+    font-family: century gothic, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px red;
+    padding: 5px;
+    margin: 5px;
+    position: fixed;
+    
+}
+.oneline-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+}
+.top-left{
+    font-family: century gothic, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    display:inline;
+}
+.top-right{
+    float: right;
+    font-family: century gothic, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin: 0 0 10px 10px;
+}
+.paragraph{
+    width: 50%;
+    height: auto;
+    padding: 1px;
+    font-size: 30pt;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+}
+.mypic{
+    max-width: 20%;
+    max-height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.sameline{
+    display: inline;
+}
